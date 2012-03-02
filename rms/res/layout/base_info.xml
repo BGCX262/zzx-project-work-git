@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/info_layout">
+	<!-- IMEI -->
+	<LinearLayout style="@style/entry_layout">
+		<TextView style="@style/info_label" android:text="@string/base_info_imei_label" />
+		<TextView android:id="@+id/imei" style="@style/info_value" />
+	</LinearLayout>
+
+	<!-- Network Identifier -->
+	<LinearLayout style="@style/entry_layout">
+		<TextView style="@style/info_label" android:text="@string/base_info_network_label" />
+		<TextView android:id="@+id/operator" style="@style/info_value" />
+	</LinearLayout>
+
+	<!-- Ping stats -->
+	<Button android:id="@+id/ping_test" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_marginTop="8dip"
+		android:text="@string/ping_test_label" android:textSize="14sp" />
+	<LinearLayout style="@style/entry_layout">
+		<TextView style="@style/info_label" android:text="@string/base_info_ping_ipaddr" />
+		<TextView android:id="@+id/pingIpAddr" style="@style/info_value" />
+	</LinearLayout>
+	<LinearLayout style="@style/entry_layout">
+		<TextView style="@style/info_label" android:text="@string/base_info_ping_hostname" />
+		<TextView android:id="@+id/pingHostname" style="@style/info_value" />
+	</LinearLayout>
+	<LinearLayout style="@style/entry_layout">
+		<TextView style="@style/info_label" android:text="@string/base_info_http_client_test" />
+		<TextView android:id="@+id/httpClientTest" style="@style/info_value" />
+	</LinearLayout>
+	
+	<!-- Signal Strength -->
+    <LinearLayout style="@style/entry_layout">
+        <TextView android:text="@string/base_info_signal_strength_label" style="@style/info_label" />
+        <TextView android:id="@+id/dbm" style="@style/info_value" />
+        <TextView android:id="@+id/asu" style="@style/info_value" />
+    </LinearLayout>
+    <!-- Location -->
+    <LinearLayout style="@style/entry_layout">
+        <TextView android:text="@string/base_info_signal_location_label" style="@style/info_label" />
+        <TextView android:id="@+id/location" style="@style/info_value" />
+    </LinearLayout>
+    <!-- Neighboring Cids -->
+    <LinearLayout style="@style/entry_layout">
+        <TextView android:text="@string/base_info_neighboring_location_label"
+                  style="@style/info_label" />
+        <TextView android:id="@+id/neighboring" style="@style/info_value" />
+    </LinearLayout>
+    
+    <!-- Lock stats -->
+	<Button android:id="@+id/lockLacCid" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_marginTop="8dip"
+		android:text="@string/lock_lacCid_label" android:textSize="14sp" />
+
+	<!-- Roaming -->
+	<LinearLayout style="@style/entry_layout">
+		<TextView style="@style/info_label" android:text="@string/base_info_roaming_label" />
+		<TextView android:id="@+id/roaming" style="@style/info_value" />
+	</LinearLayout>
+	<!-- GSM Service -->
+	<LinearLayout style="@style/entry_layout">
+		<TextView style="@style/info_label" android:text="@string/base_info_gsm_service_label" />
+		<TextView android:id="@+id/gsm" style="@style/info_value" />
+	</LinearLayout>
+	
+	<!-- GPRS Service -->
+    <LinearLayout style="@style/entry_layout">
+        <TextView android:text="@string/base_info_gprs_service_label" style="@style/info_label" />
+        <TextView android:id="@+id/gprs" style="@style/info_value" />
+    </LinearLayout>
+    
+    <!-- Network Type -->
+    <LinearLayout style="@style/entry_layout">
+        <TextView android:text="@string/base_info_network_type_label" style="@style/info_label" />
+        <TextView android:id="@+id/network" style="@style/info_value" />
+    </LinearLayout>
+     <!-- Message Waiting Indicator -->
+     <LinearLayout style="@style/entry_layout">
+         <TextView android:text="@string/base_info_message_waiting_label" style="@style/info_label" />
+         <TextView android:id="@+id/mwi" style="@style/info_value" />
+     </LinearLayout>
+     
+     <!-- Call Forwarding Indicator -->
+     <LinearLayout style="@style/entry_layout">
+         <TextView android:text="@string/base_info_call_redirect_label" style="@style/info_label" />
+         <TextView android:id="@+id/cfi" style="@style/info_value" />
+     </LinearLayout>
+     
+     <!-- Call Status -->
+     <LinearLayout style="@style/entry_layout">
+         <TextView android:text="@string/base_info_call_status_label" style="@style/info_label" />
+         <TextView android:id="@+id/call" style="@style/info_value" />
+     </LinearLayout>
+     
+     <!-- Radio Resets -->
+     <LinearLayout style="@style/entry_layout">
+         <TextView android:text="@string/base_info_radio_resets_label" style="@style/info_label" />
+         <TextView android:id="@+id/resets" style="@style/info_value" />
+     </LinearLayout>
+     
+     <!-- Attempted Data Connections -->
+     <LinearLayout style="@style/entry_layout">
+         <TextView android:text="@string/base_info_data_attempts_label"
+             style="@style/info_label" />
+         <TextView android:id="@+id/attempts" style="@style/info_value" />
+     </LinearLayout>
+
+     <!-- Successful Data Connections -->
+     <LinearLayout style="@style/entry_layout">
+         <TextView android:text="@string/base_info_data_successes_label"
+             style="@style/info_label" />
+         <TextView android:id="@+id/successes" style="@style/info_value" />
+     </LinearLayout>
+     
+     <!-- GSM Disconnects -->
+     <LinearLayout style="@style/entry_layout">
+         <TextView android:text="@string/base_info_gsm_disconnects_label"
+             style="@style/info_label" />
+         <TextView android:id="@+id/disconnects" style="@style/info_value" />
+     </LinearLayout>
+     
+     
+     <!-- PPP Sent -->
+        <LinearLayout style="@style/entry_layout">
+            <TextView android:text="@string/base_info_ppp_sent_label"
+                style="@style/info_label" />
+            <TextView android:id="@+id/sent" style="@style/info_value" />
+        </LinearLayout>
+
+        <!-- PPP Received -->
+        <LinearLayout style="@style/entry_layout">
+            <TextView android:text="@string/base_info_ppp_received_label"
+                style="@style/info_label" />
+            <TextView android:id="@+id/received" style="@style/info_value" />
+        </LinearLayout>
+        
+        <!-- PPP Sent since last received -->
+        <LinearLayout style="@style/entry_layout">
+            <TextView android:text="@string/base_info_ppp_resets_label"
+                style="@style/info_label" />
+            <TextView android:id="@+id/sentSinceReceived" style="@style/info_value" />
+        </LinearLayout>
+        
+        <!-- Preferred Network Type -->
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/base_info_set_perferred_label"
+                style="@style/info_label"
+                />
+        <Spinner android:id="@+id/preferredNetworkType"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                />
+        
+     
+	     <!-- Launch OEM-specific Info/Settings Activity (if any) -->
+	     <Button android:id="@+id/oem_info"
+	             android:textSize="14sp"
+	             android:layout_marginTop="8dip"
+	             android:layout_width="wrap_content"
+	             android:layout_height="wrap_content"
+	             android:text="@string/oem_radio_info_label"
+	             />
+</LinearLayout>
+</ScrollView>

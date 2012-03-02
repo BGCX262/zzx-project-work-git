@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, RmsActivity!</string>
+    <string name="app_name">Rms</string>
+    <string name="btn1">开启</string>
+	
+    <string name="base_info_imei_label">IMEI:</string>
+    <string name="base_info_network_label">Current network:</string>
+    <string name="base_info_unknown">unknown</string>
+    <string name="base_info_service_in">In service</string>
+     <string name="base_info_service_emergency">Emergency calls only</string>
+     <string name="base_info_service_off">Radio off</string>
+     
+     <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="ping_test_label">Run ping test</string>
+    <string name="base_info_ping_ipaddr">Ping IpAddr:</string>
+    <string name="base_info_ping_hostname">Ping Hostname(www.baidu.com):</string>
+    <string name="base_info_http_client_test">HTTP Client test:</string>
+    <string name="base_info_signal_strength_label">Signal strength:</string>
+    <string name="base_info_display_dbm">dBm</string>
+    <string name="base_info_display_asu">asu</string>
+    <string name="base_info_signal_location_label">Location:</string>
+    <string name="base_info_lac">LAC</string>
+    <string name="base_info_cid">CID</string>
+    <string name="base_info_neighboring_location_label">Neighboring CID:</string>
+    <string name="lock_lacCid_label">Lock LAC CID</string>
+    <string name="neighbor_dialog_title">Pick a LAC &amp;CID</string>
+    
+    <string name="base_info_gsm_service_label">GSM service:</string>
+     
+      <!-- Radio Info screen. Label for a status item.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="base_info_roaming_label">Roaming:</string>
+    <!-- Phone Info screen. Status label.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="base_Info_roaming_in">Roaming</string>
+    <!-- Phone Info screen. Status label.  Used for diagnostic info screens, precise translation isn't needed -->
+    <string name="base_Info_roaming_not">Not roaming</string>
+    
+    <string name="base_info_gprs_service_label">GPRS service:</string>
+    <string name="base_info_data_connected">Connected</string>
+    <string name="base_info_data_connecting">Connecting</string>
+    <string name="base_info_data_suspended">Suspended</string>
+    <string name="base_info_network_type_label">Network type:</string>
+    <string name="base_info_network_type_cdma">CDMA</string>
+    <string name="base_info_network_type_edge">EDGE</string>
+    <string name="base_info_network_type_gprs">GPRS</string>
+    <string name="base_info_network_type_evdo_0">EVDO</string>
+    <string name="base_info_network_type_evdo_A">EVDO</string>
+    <string name="base_info_network_type_evdo_B">EVDO</string>
+    
+    <string name="base_info_message_waiting_label">Message waiting:</string>
+    <string name="base_info_call_redirect_label">Call redirect:</string>
+    
+    <string name="base_info_call_status_label">Call status:</string>
+    <string name="base_info_phone_idle">Idle</string>
+    <string name="base_info_phone_ringing">Ringing</string>
+    <string name="base_info_phone_offhook">Call in progress</string>
+    <string name="base_info_radio_resets_label">Radio resets:</string>
+    <string name="base_info_data_attempts_label">Data attempts:</string>
+    <string name="base_info_data_successes_label">Data successes:</string>
+    <string name="base_info_gsm_disconnects_label">GSM disconnects:</string>
+    
+    <string name="base_info_ppp_sent_label">PPP sent:</string>
+    <string name="base_info_ppp_received_label">PPP received:</string>
+    <string name="base_info_display_packets">pkts</string>
+    <string name="base_info_display_bytes">bytes</string>
+    <string name="base_info_set_perferred_label">Set preferred network type:</string>
+    
+    <string name="base_info_ppp_resets_label">Number of PPP reset since boot:</string>
+    
+    <string name="oem_radio_info_label">OEM-specific Info/Settings</string>
+    
+</resources>
